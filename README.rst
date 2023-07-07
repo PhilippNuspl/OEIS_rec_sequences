@@ -20,7 +20,16 @@ The workflow is as follows (all files are in the folder ``sources``):
 Results
 =======
 
-The folder ``results`` contains files with the results which were obtained using guessing. The results for sequences satisfying linear recurrence sequences with constant and polynomial coefficients are in the folders ``cfin`` and ``dfin``, respectively. ``csv`` files (with delimiter ``;``) with the results for different confidence levels are provided (for instance, the recurrences in ``ens15.csv`` are more likely to be true compared to the recurrences in ``ens1.csv``). The files contain the following columns:
+We provide the results for guessing linear recurrences with constant (called C-finite) as well as polynomial coefficients. The folder ``results`` contains files with the C-finite results. ``csv`` files (with delimiter ``;``) with the results for different confidence levels are provided (for instance, the recurrences in ``ens15.csv`` are more likely to be true compared to the recurrences in ``ens1.csv``). Due to their size, the ``csv`` files with the results for linear recurrences with polynomial coefficients are hosted on a different place. They can be downloaded here:
+
+1. `ens1.csv <https://www3.risc.jku.at/people/pnuspl/CSV_OEIS/dfin/ens1.csv>`_
+2. `ens3.csv <https://www3.risc.jku.at/people/pnuspl/CSV_OEIS/dfin/ens3.csv>`_
+3. `ens5.csv <https://www3.risc.jku.at/people/pnuspl/CSV_OEIS/dfin/ens5.csv>`_
+4. `ens8.csv <https://www3.risc.jku.at/people/pnuspl/CSV_OEIS/dfin/ens8.csv>`_
+5. `ens10.csv <https://www3.risc.jku.at/people/pnuspl/CSV_OEIS/dfin/ens10.csv>`_
+6. `ens15.csv <https://www3.risc.jku.at/people/pnuspl/CSV_OEIS/dfin/ens15.csv>`_
+
+The files contain the following columns:
 
 1. ``Id``: The identifier as given in the OEIS.
 2. ``Recurrence``: The recurrence operator which annihilates some initial terms of the sequence. The shift operator is denoted by ``Sn``.
